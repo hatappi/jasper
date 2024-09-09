@@ -31,7 +31,7 @@ class _MainWindow {
       title: 'Jasper',
       titleBarStyle: 'hiddenInset',
       webPreferences: {
-        nodeIntegration: false,
+        nodeIntegration: true,
         preload: PathUtil.getPath('/Renderer/asset/html/main-window-preload.js'),
       },
       x: mainWindowState.x || 0,
